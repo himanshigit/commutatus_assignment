@@ -1,0 +1,264 @@
+{
+"ceo": {
+        "emp_name" : "Himanshu",
+        "idNo": 8062923,
+        "phone_number": 7888869426,
+        "email_id": "hsingal05@gmail.com",
+        "position": "CEO",
+        "gender" : "male",
+        "departments": {
+            "HR": {
+                "teams": {
+                    "ICOMMS" : {
+                        "members": [
+                            {
+                                "emp_name" : "Anubhav",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "anubhav@gmail.com",
+                                "position": "0",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Karan",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "Karan@gmail.com",
+                                "position": "1",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Arjun",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "Arjun@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Rahul",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Rahul@gmail.com",
+                                "position": "3",
+                                "gender" : "male"
+                            }
+                        ]
+                    },
+                    "BT" : {
+                        "members": [
+                            {
+                                "emp_name" : "Kirti",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "Kirti@gmail.com",
+                                "position": "0",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Hiren",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "Hiren@gmail.com",
+                                "position": "3",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Manzur",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "Manzur@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Pradeep",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Pradeep@gmail.com",
+                                "position": "1",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Harshit",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Harshit@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            }
+                        ]
+                    }
+                }
+            },
+            "DESIGN": {
+                "teams": {
+                    "PHOTOSHOP" : {
+                        "members": [
+                            {
+                                "emp_name" : "Sachin",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "sachin@gmail.com",
+                                "position": "0",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Shubham",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "Shubham@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Shubhangi",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "Shubhangi@gmail.com",
+                                "position": "1",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Shalvi",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Shalvi@gmail.com",
+                                "position": "2",
+                                "gender" : "female"
+                            }
+                        ]
+                    },
+                    "XD" : {
+                        "members": [
+                            {
+                                "emp_name" : "Jhanvi",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "jhanvi@gmail.com",
+                                "position": "0",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Harshvardhan",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "harshvardhan@gmail.com",
+                                "position": "3",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Honey",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "honey@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Hiten",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "hiten@gmail.com",
+                                "position": "3",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Hitesh",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "hitesh@gmail.com",
+                                "position": "1",
+                                "gender" : "male"
+                            }
+                        ]
+                    }
+                }
+            },
+            "ENGINEERING": {
+                "teams": {
+                    "FRONTEND" : {
+                        "members": [
+                            {
+                                "emp_name" : "Shrestha",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "Shrestha@gmail.com",
+                                "position": "0",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Raghav",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "Raghavn@gmail.com",
+                                "position": "2",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Kiran",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "kiran@gmail.com",
+                                "position": "1",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Tripti",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Tripti@gmail.com",
+                                "position": "3",
+                                "gender" : "female"
+                            }
+                        ]
+                    },
+                    "BACKEND" : {
+                        "members": [
+                            {
+                                "emp_name" : "Nishchey",
+                                "idNo": 8062923,
+                                "phone_number": 7888869426,
+                                "email_id": "Nishchey@gmail.com",
+                                "position": "0",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Jatin",
+                                "idNo": 12345,
+                                "phone_number": 1235678,
+                                "email_id": "Jatin@gmail.com",
+                                "position": "1",
+                                "gender" : "male"
+                            },
+                            {
+                                "emp_name" : "Aanchal",
+                                "idNo": 327482,
+                                "phone_number": 32648344686,
+                                "email_id": "Aanchal@gmail.com",
+                                "position": "3",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Khushbu",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Khushbu@gmail.com",
+                                "position": "2",
+                                "gender" : "female"
+                            },
+                            {
+                                "emp_name" : "Jack",
+                                "idNo": 908988,
+                                "phone_number": 9889797,
+                                "email_id": "Jack@gmail.com",
+                                "position": "3",
+                                "gender" : "male"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

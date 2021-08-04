@@ -49,15 +49,13 @@ function Team(props) {
   function handleAddMembers(key){
     const empName = prompt("Please Enter Members Name...");
     const empPosition = parseInt(prompt("Please Enter Members Position..."));
-    console.log(empPosition);
-    if(empPosition>3 || empPosition<0 || typeof(empPosition)=='string' || empPosition=='NaN'){
+    if(empPosition>3 || empPosition<0 || isNaN(empPosition)){
       prompt("Please Enter Members Position between 0 and 3...");
     }
     const empId = Math.floor(Math.random()*100000)+10000;
     const empEmail = empName+"@gmail.com";
     const empContact = Math.floor(Math.random()*10000000000)+1000000000;
     const empGender = empId%2==0? 'male' : 'female';
-    console.log(empId,empEmail,empContact,empGender);
     if(empName && (empPosition || empPosition==0)){
       data.ceo.departments[props.department].teams[key].members.push({
         "emp_name" : empName,

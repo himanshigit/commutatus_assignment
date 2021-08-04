@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/commutatus_assignment/static/css/main.095b01aa.chunk.css",
+    "main.js": "/commutatus_assignment/static/js/main.cfd0006e.chunk.js",
+    "main.js.map": "/commutatus_assignment/static/js/main.cfd0006e.chunk.js.map",
+    "runtime-main.js": "/commutatus_assignment/static/js/runtime-main.7104d845.js",
+    "runtime-main.js.map": "/commutatus_assignment/static/js/runtime-main.7104d845.js.map",
+    "static/js/2.80bb4e16.chunk.js": "/commutatus_assignment/static/js/2.80bb4e16.chunk.js",
+    "static/js/2.80bb4e16.chunk.js.map": "/commutatus_assignment/static/js/2.80bb4e16.chunk.js.map",
+    "static/js/3.4533a7d0.chunk.js": "/commutatus_assignment/static/js/3.4533a7d0.chunk.js",
+    "static/js/3.4533a7d0.chunk.js.map": "/commutatus_assignment/static/js/3.4533a7d0.chunk.js.map",
+    "index.html": "/commutatus_assignment/index.html",
+    "static/css/main.095b01aa.chunk.css.map": "/commutatus_assignment/static/css/main.095b01aa.chunk.css.map",
+    "static/js/2.80bb4e16.chunk.js.LICENSE.txt": "/commutatus_assignment/static/js/2.80bb4e16.chunk.js.LICENSE.txt",
+    "static/media/avatar_female2.185ca2aa.jpg": "/commutatus_assignment/static/media/avatar_female2.185ca2aa.jpg",
+    "static/media/avatar_male2.1c45f064.jpg": "/commutatus_assignment/static/media/avatar_male2.1c45f064.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7104d845.js",
+    "static/js/2.80bb4e16.chunk.js",
+    "static/css/main.095b01aa.chunk.css",
+    "static/js/main.cfd0006e.chunk.js"
+  ]
+}

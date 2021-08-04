@@ -48,24 +48,31 @@ function Team(props) {
 
   function handleAddMembers(key){
     const empName = prompt("Please Enter Members Name...");
-    const empId = prompt("Please Enter Members Id...");
-    const empEmail = prompt("Please Enter Members Email...");
-    const empContact = prompt("Please Enter Members Phone Number...");
-    const empPosition = prompt("Please Enter Members Position...");
-    const empGender = prompt("Please Enter Members Gender...");
-    data.ceo.departments[props.department].teams[key].members.push({
-      "emp_name" : empName,
-      "idNo": empId,
-      "phone_number": empContact,
-      "email_id": empEmail,
-      "position": empPosition,
-      "gender" : empGender
-    });
-    localStorage.setItem("empsData", JSON.stringify(data));
-    setMember(<div className={classes.members_added}>
-      <TeamMember team={key} department={props.department}/>
-    </div>);
-    setShowMembersKey(key);
+    const empPosition = parseInt(prompt("Please Enter Members Position..."));
+    console.log(empPosition);
+    if(empPosition>3 || empPosition<0 || typeof(empPosition)=='string' || empPosition=='NaN'){
+      prompt("Please Enter Members Position between 0 and 3...");
+    }
+    const empId = Math.floor(Math.random()*100000)+10000;
+    const empEmail = empName+"@gmail.com";
+    const empContact = Math.floor(Math.random()*10000000000)+1000000000;
+    const empGender = empId%2==0? 'male' : 'female';
+    console.log(empId,empEmail,empContact,empGender);
+    if(empName && (empPosition || empPosition==0)){
+      data.ceo.departments[props.department].teams[key].members.push({
+        "emp_name" : empName,
+        "idNo": empId,
+        "phone_number": empContact,
+        "email_id": empEmail,
+        "position": empPosition,
+        "gender" : empGender
+      });
+      localStorage.setItem("empsData", JSON.stringify(data));
+      setMember(<div className={classes.members_added}>
+        <TeamMember team={key} department={props.department}/>
+      </div>);
+      setShowMembersKey(key);
+    }
   }
   return (  
     Object.keys(teams).map(function(key, item){
